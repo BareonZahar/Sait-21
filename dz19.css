@@ -1,0 +1,211 @@
+
+body{
+    background-color: rgba(128, 0, 117, 0.39);
+    font-family: Calibri,serif;
+}
+main{
+    max-width: 1300px;
+    min-width: 90%;
+   margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+hr{
+  border: none; /* Убираем границу для браузера Firefox */
+    color:#0004ff; /* Цвет линии для остальных браузеров */
+    background-color: #0004ff; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0 50px;
+}
+h2{
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 35px;
+    color:darkred;
+}
+
+ol{
+    list-style-type: none;
+    font-size: 16px;
+    margin-left: -30px;
+}
+header li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+header h2{
+    font-size: 25px;
+}
+header img{
+    width: 20%;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+li{
+    color: #80001e;
+}
+.fix{
+    position: fixed;
+    top: 30px;
+    color:aqua;
+    font-size: 17px;
+    background-color: rgba(255, 213, 0, 0.34);
+
+}
+.fit{
+     position: fixed;
+    top: 550px;
+    left: 85%;
+    color: aqua;
+    padding: 10px 10px;
+    background-color: rgba(255, 213, 0, 0.34);
+}
+i{
+    font-size: 25px;
+    color: #ef7a04;
+}
+section h2{
+    text-align: center;
+    display: block;
+}
+.row{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+.s2 img{
+    width: 100%;
+    border: 10px solid #666666;
+    overflow: hidden;
+}
+b{
+    color: navy;
+}
+
+.s1 {
+    line-height: 1.5em;
+    margin-left: 20px;
+     margin-right: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+.s2 p{
+    line-height: 1.5em;
+    margin-left: 20px;
+     margin-right: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+.s3 p{
+    line-height: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+#s4 b{
+    font-size: 20px;
+}
+#s4 li{
+     text-align: justify;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#s5 b{
+    font-size: 20px;
+
+}
+#s5 li{
+    text-align: justify;
+    margin-right: 20px;
+     margin-left: 10px;
+}
+.s1 ol{
+     flex-direction: inherit;
+}
+a{
+    text-decoration: none;
+    color: #444444;
+}
+a:hover{
+    font-size: 20px;
+    color: yellow;
+    border-bottom: 2px solid red;
+        background-color: darkred;
+}
+.wer1{
+    color:#800075;
+    font-size: 25px;
+}
+form{
+    margin-left: 40px;
+    width: 50%;
+    background-color: rgba(26, 255, 0, 0.4);
+}
+label{
+    display: block;
+    margin: 5px;
+}
+#s8{
+    margin-left: 20px;
+}
+@media (max-width: 800px) {
+ .fit{
+        left: 80%;
+    }
+     header h2{
+        font-size: 20px;
+    }
+     form{
+         width: 70%;
+     }
+
+
+}
+@media (max-width: 500px) {
+    form{
+        width: 80%;
+    }
+    .fit{
+       left: 65%;
+        top: 500px;
+
+
+    }
+    .fix{
+        width:30%;
+
+    }
+    header ol{
+        margin-right: 100px;
+    }
+    header h2{
+        font-size: 15px;
+    }
+    li{
+        margin-top: 2px;
+    }
+
+}
+.adres{
+    color: darkred;
+    font-size: 20px;
+    margin-left: 30px;
+}
+pre{
+    font-size: 14px;
+   width: 50px;
+}
+#tel:hover {
+    color: red;
+
+}
